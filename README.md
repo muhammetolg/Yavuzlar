@@ -1,2 +1,2 @@
 # Yavuzlar
-Yavuzlar Haftalık Görevler
+Yavuzlar Takımı Aday İçin Haftalık Görevler
