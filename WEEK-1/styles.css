@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.controls input,
+.controls select,
+.controls button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.controls button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.controls button:hover {
+    background-color: #218838;
+}
+.question-list {
+    list-style: none;
+    padding: 0;
+}
+.question-list li {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+.question-list li .question-text {
+    margin-bottom: 10px;
+}
+.question-list li .choices {
+    margin-bottom: 10px;
+}
+.question-list li .choices span {
+    display: block;
+}
+.question-list button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.question-list button:hover {
+    background-color: #c82333;
+}
+#random-question {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

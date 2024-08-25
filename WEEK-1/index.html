@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quest Application</h1>
+        
+        <div class="controls">
+            <input type="text" id="question-input" placeholder="Soru Girin">
+            <input type="text" id="choice-1" placeholder="A">
+            <input type="text" id="choice-2" placeholder="B">
+            <input type="text" id="choice-3" placeholder="C">
+            <input type="text" id="choice-4" placeholder="D">
+            <input type="text" id="choice-5" placeholder="E">
+            <select id="correct-choice">
+                <option value="0">A</option>
+                <option value="1">B</option>
+                <option value="2">C</option>
+                <option value="3">D</option>
+                <option value="4">E</option>
+            </select>
+            <input type="number" id="difficulty-input" placeholder="Zorluk (1-5)">
+            <button onclick="addQuestion()">Ekle</button>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Ara">
+            <button onclick="searchQuestion()">Ara</button>
+        </div>
+
+        <ul class="question-list" id="question-list"></ul>
+
+        <div class="controls">
+            <button onclick="getRandomQuestion()">Rastgele Soru</button>
+        </div>
+        
+        <div id="random-question"></div>
+
+        <div id="score">Puan: 0</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
